@@ -1,0 +1,41 @@
+326 Assignment 1 Essay Structure
+
+Proposed Essay structured into the following paragraphs
+
+1. Introduction
+	->state the problem: the viability of NoSQL DB in business world
+	->purpose of essay being to explore this topic and present some reasoning on it
+
+	word size: 100-150
+2. A) Description of Problem
+		->describe current situation of NoSQL use in industry
+			->?possibly use case study as example?
+		->Describe NoSQL components 
+		->Describe RDBMS as traditional opponent
+   B) Given
+		->Present strengths and weaknesses of NoSQL as given in paper
+			->Constrast against RDMBS strengths/weaknesses	
+				->Play them against each other
+   
+   C) Our Opinion
+   		->Two options
+   			1) We believe in NoSQL and indicate that despite its shortcomings
+   			   it is very promising as an alternative, not replacement for RDBMS
+   			   	->Cite examples from industry like Amazon, Facebook, Google etc
+
+   			2) We do not believe in NoSQL and take a stance to indicate that despite its promise, it still has a long way to go
+   				->Personally, I feel this is the weaker of the two approaches as NoSQL is pushed as an alternative and not replacement
+   				to RDBMS
+
+3. Relevance to COS326
+	->NoSQL presents a viable DB alternative
+	->Potential new avenue of study/research
+	->New way to capture complex data in evolving world
+
+	word size: 700-800
+
+4.  Conclusion
+  ->summary of points given 				     	
+  word size: 100-150
+Presentation
+	->Present a slideshow with a almost a Rocky theme as NoSQL is the new contender to the old guard RDBMS and we can use a lot of easy graphics to enforce the theme and hammer home the central point of contention.
