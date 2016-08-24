@@ -1,19 +1,98 @@
-\documentclass[12pt]{article}
+\documentclass{article}
+
+%Packages
 \usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{url}
+%Margins
+\usepackage[
+margin=2cm,
+includefoot
+]{geometry}
+
+%Images
+\usepackage{graphicx}
+
+\graphicspath{{./img}}
+
+%Headers and Footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+%Document start
 \begin{document}
+
+%Title Page
 \begin{titlepage}
+	\begin{center}
+		\includegraphics[width=10cm]{img/UP.jpg}  \\
+		[1cm]
+		\line(1,0){300} \\
+		[0.3cm]
+		\textsc{\Large
+			COS 326 - Assignment 1: Topic 6	\\ [0.3cm]
+		}
+		\line(1,0){300} \\
+		[2.9cm]
+		\textsc{\LARGE
+			Emilio Singh 
+			u14006512\\
+		}
+		\textsc{\LARGE
+			\\Avinash Singh
+			u14043778 \\
+		} 
+		
+		\textsc{\LARGE
+			\\Jason Gordon 
+			u14405025 \\
+		}
+		
+		\textsc{\LARGE
+			\\Claudio Da Silva 
+			u14205892 \\
+		}
+	
+		\textsc{\LARGE
+			\\Natasha Schoeman
+			u14009562 \\
+		}
+		
+		\textsc{\LARGE
+			\\Renton McIntyre 
+			u14 \\
+		}
 
-\begin{center}
-\begin{huge}
-COS 326: Assignment 1: Topic 6
-\\
-Emilio Singh u14006512
-\end{huge}
-
-\end{center}
+		
+	\end{center}
+	\begin{center}
+		
+		
+	\end{center}
 \end{titlepage}
+
+%Table of contents
+
 \tableofcontents
-\pagebreak
+\thispagestyle{empty}
+\cleardoublepage
+
+
+
+%Content
+\setcounter{page}{1}
+\section{Introduction}
+	
+\section{Conclusion}
 
 \bibliographystyle{plain}
 \bibliography{references}
